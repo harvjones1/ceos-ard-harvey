@@ -60,7 +60,7 @@ At the individual requirement level, contributions are encouraged and welcome at
 
 **Engagement**: The development of PFS must consider both the user needs and the ability of data providers to meet the specifications. Participation should be sought from CEOS Working Groups, the commercial sector, academia, and other thematic observation coordination bodies. In particular, involving data providers and data volume experts is vital to ensure CEOS-ARD requirements are feasible and appropriate.
 
-**Reporting**: New PFS must be approved by the CEOS-ARD Oversight Group *(see 2.4: Endorsement)*. To facilitate the development of a new PFS, information and experience will be freely shared within CEOS through the point of contact.
+**Reporting**: New PFS must be approved by the CEOS-ARD Oversight Group. To facilitate the development of a new PFS, information and experience will be freely shared within CEOS through the point of contact.
 
 PFS Leads should recognise the balance between meeting user needs and maintaining operational viability. Context and justification should accompany requirement updates that tie to user needs and anticipated use, especially for per-pixel metadata. Open dialogue is encouraged between a PFS’ expectations and the current technical capabilities of providers, and PFS Leads should take feedback on board for future PFS version releases.
 
