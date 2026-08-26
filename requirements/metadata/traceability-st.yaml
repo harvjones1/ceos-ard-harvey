@@ -4,8 +4,7 @@ description:
 requirements:
   goal:
     description: |-
-      Data must be traceable to SI reference standard.
-      Information on traceability should be available in the metadata as a single DOI landing page.
+      Data must be traceable to SI reference standard, documented by URL or DOI.
     notes:
       - SI Traceability requires an estimate of measurement uncertainty (see [@uncertainty]).
     optional: true
