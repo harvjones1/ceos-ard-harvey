@@ -25,22 +25,22 @@ requirements:
     requirements:
       - metadata/ceos-ard-pfs-version
       - metadata/traceability-st
-      - metadata/machine-readability-optical
-      - metadata/time-ar
+      - metadata/machine-readability-st
+      - metadata/time-st
       - metadata/geo-area-optical
       - metadata/crs-ar
       - metadata/map-projection-ar
-      - metadata/geometric-correction-methods-ar
-      - metadata/geometric-uncertainty
-      - metadata/instrument-ar
-      - metadata/spectral-bands-ar
-      - metadata/sensor-calibration-ar
-      - metadata/radiometric-uncertainty
-      - metadata/radiometric-encoding
+      - metadata/geometric-correction-methods-st
+      - metadata/geometric-uncertainty-st
+      - metadata/instrument-st
+      - metadata/spectral-bands-st
+      - metadata/sensor-calibration-st
+      - metadata/measurand-uncertainty
+      - metadata/measurand-encoding
       - metadata/algorithms-st
-      - metadata/auxiliary-data-ar
+      - metadata/auxiliary-data-st
       - metadata/processing-chain-prov-st
-      - metadata/data-access
+      - metadata/data-access-st
       - metadata/valid-pixels
   - category: per-pixel-metadata
     requirements:
