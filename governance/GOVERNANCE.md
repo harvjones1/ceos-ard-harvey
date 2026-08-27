@@ -140,7 +140,7 @@ The following steps outline the process for proposing a new release of an existi
 
 **Recording Changes**
 
-Every building block change must be recorded in the file’s *changes* field, including the date, author, level (major, minor, or patch), a description of the change, and reason. Changes to a PFS document must also be recorded in the PFS file’s *changes* field. See [https://github.com/ceos-org/ceos-ard/blob/main/VERSIONING.md\#recording-changes](https://github.com/ceos-org/ceos-ard/blob/main/VERSIONING.md#recording-changes) for an example *changes* record.
+Every building block change must be recorded in the file’s *changes* field, including the date, author, level (major, minor, or patch), a description of the change, and reason. Changes to a PFS document must also be recorded in the PFS file’s *changes* field. See ["Recording Changes"](.../VERSIONING.md#recording-changes) for an example *changes* record.
 
 ### 2.3.2: New PFS
 
