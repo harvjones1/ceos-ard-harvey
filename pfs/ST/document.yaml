@@ -28,7 +28,7 @@ requirements:
       - metadata/machine-readability-optical
       - metadata/time-ar
       - metadata/geo-area-optical
-      - metadata/crs-optical
+      - metadata/crs-ar
       - metadata/map-projection-ar
       - metadata/geometric-correction-methods-ar
       - metadata/geometric-uncertainty
