@@ -99,25 +99,15 @@ Anyone with a GitHub account can contribute pull requests and initiate discussio
 The following list presents recommended best practices for developing CEOS-ARD building blocks. Building blocks should be:
 
 * Aligned with the YAML structure detailed in the [CEOS-ARD GitHub repository](https://github.com/ceos-org/ceos-ard/tree/main/requirements).
-
 * Explicit and unambiguous, and objectively assessable, allowing for a clear binary assessment (met or not met). Conditional phrases such as 'if/where possible' are incompatible.
-
 * Small, atomic, and meaningful to maximise reuse and minimise duplication across different PFS. Common building blocks should be consistent across PFS.   
-
 * Implementation-neutral, describing the information required, not the process. 
-
 * Self-contained, with dependencies on other building blocks identified where necessary.
-
 * Containing clearly-stated dependencies between other building blocks.
-
 * Consistent with agreed vocabularies such as the [CEOS EO Glossary](https://ceos-org.github.io/eo-glossary/). Where definitions for terms do not exist in the CEOS EO Glossary, PFS Leads are encouraged to propose definitions or begin discussions within the glossary.
-
 * Accompanied by recorded *Changes* when updated. Changes to individual building blocks or PFS documents should explicitly describe their effects and justification.
-
 * Aligned with and providing references to existing standards where applicable.
-
 * Retained and marked in the case of deprecation, rather than removed immediately.
-
 * Suitable for automated validation to the greatest extent possible. 
 
 ### 2.3.2: Updating PFS
