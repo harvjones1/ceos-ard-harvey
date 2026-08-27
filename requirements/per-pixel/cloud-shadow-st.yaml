@@ -4,13 +4,13 @@ description:
 requirements:
   goal:
     description: |-
-      Specification of whether a pixel is cloud shadow-affected.
+      Specification of whether a pixel is cloud shadow-affected. Information on cloud shadow detection is documented by URL or DOI.
     optional: true
 dependencies:
 glossary:
 references:
 changes:
-  - date: 2026-07-31
+  - date: 2026-08-27
     author: Harvey Jones
     level: minor
     change: |-
