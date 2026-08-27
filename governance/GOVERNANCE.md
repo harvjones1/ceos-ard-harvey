@@ -94,7 +94,7 @@ Each of the building blocks have a unique identifier, and are assembled to form 
 
 Anyone with a GitHub account can contribute pull requests and initiate discussion on CEOS-ARD building blocks, assembly manifests, and all other aspects of the CEOS-ARD Framework.
 
-**Building Block Best Practices**
+#### Building Block Best Practices
 
 The following list presents recommended best practices for developing CEOS-ARD building blocks. Building blocks should be:
 
