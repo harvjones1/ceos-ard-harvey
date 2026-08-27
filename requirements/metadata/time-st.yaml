@@ -1,0 +1,25 @@
+id: time-st
+title: Data Collection Time
+description:
+requirements:
+  threshold:
+    description: |-
+      The beginning and end of the data collection time is expressed in date/time and identified in the metadata consistent with ISO 8601. The time is expressed with the time offset from UTC unambiguously identified.
+      
+      In the case of composite or mosaic products, the dates/times of the first and last data takes is provided with the product.
+  goal:
+    description: |-
+      As threshold, but information required to determine, within a stated uncertainty, when the individual observations were taken is available.
+    optional: true
+glossary:
+  - utc
+references:
+changes:
+  - date: 2026-08-27
+    author: Harvey Jones
+    level: minor
+    change: |-
+      Added clarification for mosaic products.
+    reason: Aligned with other PFS requirements for data collection time
+history:
+  - ST 1.3
