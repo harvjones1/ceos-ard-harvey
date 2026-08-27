@@ -7,19 +7,12 @@ The purpose of this document is to present all aspects of the governance of CEOS
 The CEOS-ARD Framework includes:
 
 * CEOS-ARD definition and oversight
-
 * The role and core elements of the Product Family Specifications (PFS)
-
 * Development process for new PFS
-
 * CEOS-ARD Building Blocks and GitHub 
-
 * Self-assessments and CEOS roles in the process
-
 * Processes for peer review of self-assessments and approval of CEOS-ARD datasets
-
 * Classification and promotion of CEOS-ARD datasets
-
 * The role of Advisory Notes in providing guidance on aspects which are not part of the core Framework.
 
 ## 1.2: Definition
