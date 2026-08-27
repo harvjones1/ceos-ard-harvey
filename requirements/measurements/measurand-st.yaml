@@ -13,7 +13,7 @@ requirements:
     optional: true
 dependencies:
   traceability: metadata/traceability-st
-  bands: metadata/spectral-bands-ar           
+  bands: metadata/spectral-bands-st           
 glossary:
   - si
 references:
