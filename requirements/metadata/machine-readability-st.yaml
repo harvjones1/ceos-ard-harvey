@@ -14,5 +14,11 @@ glossary:
 references:
   - iso19115_2_2009
 changes:
+  - date: 2026-08-27
+    author: Harvey Jones
+    level: minor
+    change: |-
+      Added more format examples to Goal description and replaced part for variable in the threshold description
+    reason: Aligned with other PFS requirements for metadata machine readability
 history:
   - SR/NLSR/ST/AR 1.1
