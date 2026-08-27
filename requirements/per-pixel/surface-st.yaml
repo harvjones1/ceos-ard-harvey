@@ -12,7 +12,7 @@ requirements:
       As threshold, but pixels are identified as being snow or ice.
     optional: true
 dependencies: 
-  auxiliary: metadata/auxiliary-data-ar
+  auxiliary: metadata/auxiliary-data-st
 glossary:
   - doi
 references:
