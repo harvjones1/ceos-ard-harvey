@@ -31,7 +31,7 @@ CEOS-ARD Oversight Group meetings including the above participants and others as
 
 Product Family Specifications (PFS) are the core component of the CEOS-ARD concept and describe specifications for certain measurement types. PFS are a flexible and extensible framework to detail specific requirements that a dataset must satisfy in order to be classified as CEOS-ARD for a particular geophysical variable.
 
-The CEOS-ARD website ([ceos.org/ard](http://ceos.org/ard)) maintains the most current and authoritative version of these PFS documents for visibility, as traditional Word and PDF documents. The [CEOS-ARD GitHub repository](https://github.com/ceos-org/ceos-ard) hosts the most up-to-date, working versions of PFS requirements. All requirements are organised into metadata categories at [github.com/ceos-org/ceos-ard/tree/main/requirements](http://github.com/ceos-org/ceos-ard/tree/main/requirements). 
+The CEOS-ARD website ([ceos.org/ard](http://ceos.org/ard)) maintains the most current and authoritative version of these PFS documents for visibility, as traditional Word and PDF documents. The [CEOS-ARD GitHub repository](../) hosts the most up-to-date, working versions of PFS requirements. All requirements are organised into metadata categories in the ["requirements"](../requirements/README.md) folder of the repository.
 
 The exact form of the PFS (i.e., which items / parameters appear in the documents’ tables) will differ from one product family to the next, because the measurement, instrumentation, mode of observation, levels of maturity, expectation of the user community, etc. will differ between product types.
 
@@ -98,7 +98,7 @@ Anyone with a GitHub account can contribute pull requests and initiate discussio
 
 The following list presents recommended best practices for developing CEOS-ARD building blocks. Building blocks should be:
 
-* Aligned with the YAML structure detailed in the [CEOS-ARD GitHub repository](https://github.com/ceos-org/ceos-ard/tree/main/requirements).
+* Aligned with the YAML structure detailed in the [CEOS-ARD GitHub repository](../requirements/README.md).
 * Explicit and unambiguous, and objectively assessable, allowing for a clear binary assessment (met or not met). Conditional phrases such as 'if/where possible' are incompatible.
 * Small, atomic, and meaningful to maximise reuse and minimise duplication across different PFS. Common building blocks should be consistent across PFS.   
 * Implementation-neutral, describing the information required, not the process. 
@@ -115,49 +115,34 @@ The following list presents recommended best practices for developing CEOS-ARD b
 The following steps outline the process for proposing a new release of an existing CEOS-ARD PFS.
 
 1. The PFS Leads propose updates to CEOS-ARD building blocks via the CEOS-ARD Editor Tool or GitHub Repository. Updates are bundled into a proposal for a new PFS Version Release.
-
 2. If any building blocks within the release proposal are shared by other PFS, the PFS Leads propose to affected PFS Leads that common building blocks be adopted.
-
    * If no updated building blocks are shared by other PFS, skip to Step 5
-
 3. If the Affected PFS Leads accept the originating PFS Leads’ proposal, they may decide when to add the updated building blocks to a new PFS release of their own. If the Affected PFS Leads reject the proposal, the Oversight Group should propose a resolution for common building blocks.
-
 4. If the Affected PFS Leads accept the Oversight Group’s proposal, they may decide when to add the updated building blocks to a new PFS Release of their own. If the Affected PFS Leads reject the proposal, separate building blocks may be maintained for affected and originating PFS.
-
 5. Is the PFS Version classified as a Major, Minor, or Patch Release?
-
    * For a Patch Release, skip to Step 7\.
-
 6. For a Major or Minor Release, the PFS Leads present the new Version for endorsement by the Oversight Group (and relevant VC or other group, if engaged) at least two weeks before an Oversight Group meeting (in-person meeting or teleconference). A link to the PFS, generated in the CEOS-ARD GitHub repository, should be shared with the Oversight Group *\<[ard-oversight-group@lists.ceos.org](mailto:ard-oversight-group@lists.ceos.org)\>* via email. 
-
    * If the proposal is rejected, the PFS Leads address issues, iterate updates with the Oversight Group as needed, and repeat this step.
-
 7. Once approved by the Oversight Group, the CEOS-ARD Secretariat publishes the new PFS version on the CEOS-ARD website. For Major updates, the new PFS Version is promoted through the CEOS-ARD communication channels.
 
 ![PFS Updates](images/CEOS-ARD_PFS_Updates_Process.png)
-
 *Flowchart for updating CEOS-ARD Product Family Specifications*
 
-**Recording Changes**
+#### Recording Changes
 
-Every building block change must be recorded in the file’s *changes* field, including the date, author, level (major, minor, or patch), a description of the change, and reason. Changes to a PFS document must also be recorded in the PFS file’s *changes* field. See ["Recording Changes"](.../VERSIONING.md#recording-changes) for an example *changes* record.
+Every building block change must be recorded in the file’s *changes* field, including the date, author, level (major, minor, or patch), a description of the change, and reason. Changes to a PFS document must also be recorded in the PFS file’s *changes* field. See ["Recording Changes"](../VERSIONING.md#recording-changes) for an example *changes* record.
 
 ### 2.3.2: New PFS
 
-The following steps outline the process for proposing a new CEOS-ARD PFS.
+The following steps outline the process for proposing a new CEOS-ARD PFS:
 
 1. An individual or group proposes a new PFS concept to the CEOS-ARD Oversight Group for approval and identifies the PFS Lead(s).
-
 2. The CEOS-ARD Oversight Group approves or rejects the PFS concept. The concept may be rejected if insufficient resources, expertise, user demand, or alignment with the CEOS-ARD framework are evident.
-
 3. The established PFS team bundles all building blocks into a new PFS, including any new, existing, or modified building blocks. The utilisation of existing building blocks is encouraged, where possible.
-
 4. The PFS Leads present the new PFS for endorsement to the CEOS-ARD Oversight Group (and relevant VC or group, if engaged) at least 2 weeks before an Oversight Group meeting (in-person meeting or teleconference). A link to the PFS, generated in the CEOS-ARD GitHub repository, should be shared with the CEOS-ARD Oversight Group *\<[ard-oversight-group@lists.ceos.org](mailto:ard-oversight-group@lists.ceos.org)\>* via email. If the proposal is rejected, the PFS Leads address issues, iterate updates with the Oversight Group as needed, and repeat this step.
-
 5. The CEOS-ARD Secretariat publishes the new PFS version on the CEOS-ARD website and promotes it through the CEOS-ARD communication channels.
 
 ![New PFS](images/CEOS-ARD_New_PFS_Process.png)
-
 *Flowchart for developing new CEOS-ARD Product Family Specifications*
 
 ## 2.4\. Processing Levels
@@ -208,62 +193,46 @@ Self-assessment is the process in which data providers review each item in a PFS
 Following completion of the self-assessment, a review is undertaken to independently confirm that the specification is met. The key principles of the peer review are:
 
 1. Independence, including that the data provider is not involved in the review;
-
 2. Expertise-based, ensuring that experts in the data products are used in the review;
-
 3. Timeliness and efficiency, ensuring that the work-load is manageable and that data providers receive feedback within a target of two weeks.
 
-Submission
-
+#### Submission
 * The Data provider submits a complete package that will consist of the self-assessment, sample data, associated metadata, and any other necessary references to the CEOS-ARD Secretariat via email: [ARD-CONTACT@LISTS.CEOS.ORG](mailto:ARD-CONTACT@LISTS.CEOS.ORG).
-
 * The CEOS-ARD Secretariat completes a first pass to ensure the submitted package is complete, and if not, they work with the data provider to resolve any issues.
 
-Review
-
+#### Review
 * A nominated representative of the CEOS Working Group on Calibration and Validation (WGCV) provides a peer review of the submission, including:
-
   * A rapid first pass to confirm all necessary info is present;
-
   * Confirming the data provider’s self-assessment;
-
   * Reviewing sample metadata for an overall data quality check;
-
   * Working with the data provider to address any issues.
-
 * For a Goal assessment, a panel of experts from WGCV is engaged to verify metadata which requires significant knowledge to interpret the evidence provided. 
 
-Acceptance
-
+#### Acceptance
 * Products that meet the specification will be accepted as ***Compliant with CEOS-ARD*** and classified as either fully meeting the ‘Threshold’ level plus some degree of the ‘Goal’ level – or perhaps fully compliant for both.
-
 * The CEOS Working Group on Information Systems and Services (WGISS) Connected Data Assets (CDA) team are notified of the newly endorsed CEOS-ARD product and invited to establish a link through the [WGISS Connected Data Assets](https://ceos.org/ourwork/workinggroups/wgiss/access/connected-data-assets/cda-datasets/).
 
 Notification
-
 * The CEOS-ARD Peer Review team from WGCV will promptly notify the data provider and the CEOS-ARD Oversight Group in writing of the outcome of the peer review.
 
 Communication
-
 * Datasets submitted for Peer Review will be listed on [ceos.org/ard\#datasets](http://ceos.org/ard#datasets) – with an ‘Under Peer Review’ tag.
-
 * A dataset that has been accepted as compliant will be listed on [ceos.org/ard\#datasets](http://ceos.org/ard#datasets) – with a ‘CEOS-ARD’ tag.
 
 ![Assessment Process](images/CEOS-ARD_Assessment_Process.png)
-
 *Flowchart for CEOS-ARD Product Assessments*
 
 # 4\. CEOS-ARD Tools
 
 ## 4.1: GitHub Repository
 
-CEOS-ARD PFS development and contribution is managed through the CEOS-ARD GitHub repository, [github.com/ceos-org/ceos-ard](http://github.com/ceos-org/ceos-ard), which supports open community collaboration. The repository is used to host draft PFS, maintain building blocks, track issues, and manage proposals for new or updated building blocks or PFS.
+CEOS-ARD PFS development and contribution is managed through the [CEOS-ARD GitHub repository](../), which supports open community collaboration. The repository is used to host draft PFS, maintain building blocks, track issues, and manage proposals for new or updated building blocks or PFS.
 
 *For CEOS Organisational GitHub Governance, please visit [github.com/ceos-org/github-governance](http://github.com/ceos-org/github-governance)*.
 
-Contribution to CEOS-ARD is welcomed through GitHub issues or pull requests. The procedure for GitHub-based contribution is detailed in the [Contributor Guidelines](https://github.com/ceos-org/ceos-ard/blob/main/CONTRIBUTING.md). In general, modifications to the PFS are proposed and accepted through pull requests. The requirements for CEOS-ARD Oversight Group review of these modifications are detailed in Section 2.3.
+Contribution to CEOS-ARD is welcomed through GitHub issues or pull requests. The procedure for GitHub-based contribution is detailed in the [Contributor Guidelines](../CONTRIBUTING.md). In general, modifications to the PFS are proposed and accepted through pull requests. The requirements for CEOS-ARD Oversight Group review of these modifications are detailed in Section 2.3.
 
-Issues related to CEOS-ARD may be opened at [https://github.com/ceos-org/ceos-ard/issues](https://github.com/ceos-org/ceos-ard/issues). This includes issues related to PFS, metadata requirements, self-assessment, or products. Issues are discussed and addressed by the CEOS-ARD Oversight Group, PFS Leads, Issue Contributor, and Secretariat. Where appropriate, the Oversight Group may provide consultation to contributors to support resolution.
+Issues related to CEOS-ARD may be opened in the [Issue Tracker](../issues). This includes issues related to PFS, metadata requirements, self-assessment, or products. Issues are discussed and addressed by the CEOS-ARD Oversight Group, PFS Leads, Issue Contributor, and Secretariat. Where appropriate, the Oversight Group may provide consultation to contributors to support resolution.
 
 ## 4.2: Editor tool
 
@@ -273,7 +242,7 @@ The CEOS-ARD Editor tool is a visual interface that enables Contributors to prop
 
 ## 5.1: Product Family Specifications (PFS)
 
-Endorsed Product Family Specifications are openly available on [ceos.org/ard](https://ceos.org/ard/), and PFS working drafts and the individual building blocks are available on [http://github.com/ceos-org/ceos-ard](http://github.com/ceos-org/ceos-ard). 
+Endorsed Product Family Specifications are openly available on [ceos.org/ard](https://ceos.org/ard/), and PFS working drafts and the individual building blocks are available in the [CEOS-ARD GitHub repository](../). 
 
 ## 5.2: CEOS-ARD Certified Products
 
@@ -296,7 +265,6 @@ The CEOS Communication Team also maintains social media accounts that may be use
 The CEOS-ARD Logo (shown on the right) is the property of the CEOS organization and has been created to allow:
 
 * Data Providers to highlight which of their datasets have been assessed and approved against the CEOS-ARD Product Family Specifications (PFS).
-
 * Data Users to easily identify which datasets have been assessed and approved against the CEOS-ARD Product Family Specifications (PFS).
 
 The CEOS-ARD Logo may only be used in accordance with these conditions. Complying with these conditions grants all users non-exclusive license to use the CEOS-ARD Logo on printed and digital materials.
