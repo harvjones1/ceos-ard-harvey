@@ -4,17 +4,19 @@ description:
 requirements:
   goal:
     description: |-
-      All algorithms and versions, and the sequence in which they were applied in the generation process, are identified and published in a peer-reviewed journal.
+      All algorithms and the sequence in which they were applied in the generation process are identified and documented by URL or DOI.
+      
+      Algorithms must be published and validated, and a description of the validation process is included.
     optional: true
 dependencies:
 glossary:
 references:
 changes:
-  - date: 2026-08-04
+  - date: 2026-08-27
     author: Harvey Jones
     level: minor
     change: |-
-      Removed threshold requirement 
-    reason: In response to https://github.com/ceos-org/ceos-ard/issues/55, the inclusion of uncertainty information at the threshold level negates the need for full algorithm and processing details.
+      Removed threshold requirement, updated goal requirement 
+    reason: In response to https://github.com/ceos-org/ceos-ard/issues/55, the inclusion of uncertainty information at the threshold level negates the need for full algorithm and processing details. Requirement also aligned with other PFS for consistency 
 history:
   - ST 1.13
