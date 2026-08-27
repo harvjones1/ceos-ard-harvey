@@ -4,16 +4,16 @@ description:
 requirements:
   threshold:
     description: |-
-     The provider attaches to each delivered dataset (delivery unit) a code which allows them to reconstruct the exact processing environment (software versions, calibration files, parameter settings) in which this particular output was produced.
+     The provider attaches to each delivered dataset (delivery unit) information which allows the provider to reconstruct the exact processing environment (software versions, calibration files, parameter settings) in which this particular output was produced.
   goal:
     description: |-
-      As threshold, but the provider is also in grade to reproduce the exact same output.
+      As threshold, but the provider is required to reproduce the exact same output.
     optional: true
 dependencies:
 glossary:
 references:
 changes:
-  - date: 2026-08-13
+  - date: 2026-08-27
     author: Harvey Jones
     level: major
     change: |-
