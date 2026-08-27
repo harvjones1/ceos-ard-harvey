@@ -70,30 +70,19 @@ With each update to PFS, a new version number is issued. Version numbers will be
 Every proposed change to a CEOS-ARD requirement or PFS via GitHub is recorded with an appropriate level classification (major, minor, or patch). When a new PFS is released, its version number reflects the highest level change since the last release.
 
 * ‘Major’ updates constitute any breaking change(s) to the PFS, whereby an update will affect the compliance of an existing product. Examples include:
-
   * Introducing a new Threshold requirement or introducing new conditions to an existing one.
-
   * Changing a dependency to another stricter requirement
-
   * Broadening what a threshold requirement applies to, so that it now constrains product aspects it did not constrain before
-
 * ‘Minor’ updates constitute content additions or changes to the PFS that retain backward compatibility with the major version. Minor updates should not affect the compliance of existing products under the current major version. Examples include:
-
   * Relaxing a Threshold requirement (e.g., removed or more lenient conditions)
-
   * Introducing or editing a Goal requirement
-
 * ‘Patch’ updates impose no changes to the normative meaning for requirements. Examples include:
-
   * Editorial changes (e.g., fixing typos or grammar)
-
   * Clarifications to a requirement (without changing its meaning)
-
   * Formatting updates
-
   * Updating the *glossary, description, references, changes, or history* fields of a requirement.
 
-For more information on CEOS-ARD versioning, see [https://github.com/ceos-org/ceos-ard/blob/main/VERSIONING.md](https://github.com/ceos-org/ceos-ard/blob/main/VERSIONING.md).   
+For more information on CEOS-ARD versioning, see [VERSIONING.md](../VERSIONING.md).   
 
 ## 2.3: CEOS-ARD Building Blocks
 
