@@ -41,7 +41,7 @@ The PFS detail two levels of requirements – 'Threshold' and 'Goal'. The Thresh
 
 CEOS Virtual Constellations (VC) traditionally serve as the fora in which new PFS are proposed and developed, however specifications can be proposed to the CEOS-ARD Oversight Group by any individual or group of people. CEOS-ARD Oversight Group approval is required before a specification will be adopted into the CEOS-ARD Framework, and as such, consultation prior to embarking on any effort to define a new specification is highly recommended.
 
-At the individual requirement level, contributions are encouraged and welcome at any time via the CEOS-ARD GitHub. For more information on how to contribute to the development of PFS, please refer to [https://github.com/ceos-org/ceos-ard/blob/main/CONTRIBUTING.md](https://github.com/ceos-org/ceos-ard/blob/main/CONTRIBUTING.md).
+At the individual requirement level, contributions are encouraged and welcome at any time via the CEOS-ARD GitHub. For more information on how to contribute to the development of PFS, please refer to [CONTRIBUTING.md](../CONTRIBUTING.md).
 
 ### 2.2.1: Resources and Consultation
 
