@@ -81,6 +81,12 @@ authors:
   - Zhuosen Wang, University of Maryland/GSFC, USA
 
 changes:
+  - date: 2026-08-31
+    author: Harvey Jones
+    level: patch
+    change: |-
+      - Updated 'Applies to' statement
+    reason: Minor editorial update
   - date: 2026-03-26
     author: Matthias Mohr
     level: patch
